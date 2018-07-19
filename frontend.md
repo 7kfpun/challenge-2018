@@ -2,9 +2,10 @@
 
 ### Requirements
 - Get pick-up location and drop-off location from user, submit them to [mockApi](https://github.com/lalamove/challenge/tree/master/mockApi)
+- Respect [mockApi input and output format](https://github.com/lalamove/challenge/blob/master/backend.md).
 - Display **driving route** returned by API on embedded [Google Map API](https://developers.google.com/maps/)
 - Should autocomplete address
-- Multi-stops is not required
+- Multi-stops are not required
 
 - API usage should be correct
   1. `POST` `/route`: Submit pick-up point and drop-off location
@@ -37,7 +38,8 @@ npm start
 - (Optional) Mobile Responsive
 
 ### Expection
-- This challange should take around 4 hours to complete.
+- Please ask questions <techchallenge@lalamove.com>.
+- This challenge normally takes around 4-8 hours of coding to complete.
 - You can work on it at your own schedule, but a complete solution is expected within 7 days.
 - Your code should be modular, each module should focus on doing one thing and do it well.
 - Major functionalities should be covered by unit tests.
